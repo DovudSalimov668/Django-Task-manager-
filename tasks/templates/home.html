@@ -1,0 +1,33 @@
+{% extends "base.html" %} 
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="tasks\static\css\home.css" />
+
+
+    <header>
+      <h1>SoftClub Academy</h1>
+    </header>
+
+    <section>
+      <h2>Text about something</h2>
+      <p>{% lorem 2 b random %}</p>
+
+      <p>{% lorem 2 b random %}</p>
+    </section>
+    <div class="some">
+      <h1 style="margin-left: 30px;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis <br>
+        quaerat optio odit aut. Modi tempora ipsum iure quidem ratione officiis <br>
+        deserunt officia sit nihil eaque, aperiam libero eligendi debitis <br>
+        sapiente?
+      </h1>
+      <div class="squ" style="width: 300px; width: 300px;background-color: beige;"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 SoftClub Academy</p>
+    </footer>
+    {% endblock content %}
+  </body>
+</html>
